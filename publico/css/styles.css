@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -56,63 +56,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3;
-=======
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-section {
-    background-color: #fff;
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-input[type="radio"] {
-    margin-right: 5px;
-}
-
-input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
->>>>>>> a6c4cc47b96054c983047fa4842cc72ee89bdbf7
 }
