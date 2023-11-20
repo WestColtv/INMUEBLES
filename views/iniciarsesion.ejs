@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Iniciar Sesion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../publico/css/style.css">
+    </head>
+    <body>
+
+
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+              <h1 class="navbar-brand" >Inmuebles Colombia</h1>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inmuebles Colombia</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/segunda">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/tercera">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/iniciarsesion">Iniciar sesion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/v1/formulario">Registrarse</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mas Informacion
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="">Mision</a></li>
+                        <li><a class="dropdown-item" href="">Vision</a></li>
+                        <li><a class="dropdown-item" href="">Politicas</a></li>
+                        <li><a class="dropdown-item" href="">Quienes somos</a></li>
+                        <li><a class="dropdown-item" href="">Servicio al clientes</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="">ChatBot</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  
+                </div>
+            </div>
+        </div>
+    </nav>
+
+      <div class="cuerpo">
+      <div class="background"></div>
+        <div class="centering">
+            <form class="my-form">
+                <div class="login-welcome-row">
+                    <img class="login-welcome"
+                        src="../publico/img/astronauta.jpg"
+                        alt="Astronaut">
+                    <h1>Iniciar sesión</h1>
+                </div>
+                <div class="text-field">
+                    <label for="email">Correo:</label>
+                    <input
+                        aria-label="Email"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Ingresa tu correo"
+                        required
+                    >
+                    <img
+                        alt="Email Icon"
+                        title="Email Icon"
+                        src="../publico/css/correo.svg"
+                    >
+                </div>
+                <div class="text-field">
+                    <label for="password">Contraseña:</label>
+                    <input
+                        id="password"
+                        type="password"
+                        aria-label="Password"
+                        name="password"
+                        placeholder="Ingresa tu contraseña"
+                        title="Minimum 6 characters at least 1 Alphabet and 1 Number"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                        required
+                    >
+                    <img
+                        alt="Password Icon"
+                        title="Password Icon"
+                        src="../publico/css/contraseña.svg"
+                    >
+                </div>
+                <input type="submit" class="my-form__button" value="Acceso" >
+                <div class="my-form__actions">
+                    <div class="my-form__row">
+                        <span>Olvide mi contraseña?</span>
+                        <a href="#" title="Restablecer">Restablecer mi contraseña</a>
+                    </div>
+                    <div class="my-form__signup">
+                        <a href="#" title="Registrarse">Crear una cuenta</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="../publico/css/script.js"></script>
+      </div>
+    </body>
+<div class="pie">
+<footer class="bg-dark text-center text-white">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright : Joel Antonio Gale Paternina
+      </div>
+  </footer>
+</div>
+</html>
